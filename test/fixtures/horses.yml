@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ranking: 1
+  name: MyString
+  breed: MyString
+  age: 1
+  rider: MyString
+  country: MyString
+  score: 1
+
+two:
+  ranking: 1
+  name: MyString
+  breed: MyString
+  age: 1
+  rider: MyString
+  country: MyString
+  score: 1

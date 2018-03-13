@@ -1,0 +1,30 @@
+
+<div id="main-container" class="container-fluid">
+  <h1>Top Horses </h1>
+
+  <div id="content" class="col-xs-7">
+    <table class="table table-striped">
+      <tr>
+        <th>Ranking</th>
+        <th>Name</th>
+        <th>Breed</th>
+        <th>Age</th>
+        <th>Rider</th>
+        <th>Country</th>
+        <th>Score</th>
+      </tr>
+     
+      <% @horse.each do |horse| %>
+        <tr>
+          <td><%= horse.ranking %></td>
+          <td><%= horse.name %></td>
+          <td><%= horse.breed %></td>
+          <td><%= horse.age %></td>
+          <td><%= horse.rider %></td>
+          <td><%= horse.country %></td>
+          <td><%= horse.score %></td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
